@@ -1,0 +1,758 @@
+[
+  {
+    "id": "counter-strike-2",
+    "name": "Counter-Strike 2",
+    "year": 2023,
+    "genre": "FPS",
+    "gpuDemand": 0.3,
+    "cpuDemand": 1.3,
+    "baseFps1080pMedium": 420,
+    "requirements": {
+      "min": { "gpu": "gtx-1650", "cpu": "core-i3-10100", "ram": 8, "storage": 35 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 16, "storage": 85 }
+    },
+    "popularity": 98
+  },
+  {
+    "id": "valorant",
+    "name": "Valorant",
+    "year": 2020,
+    "genre": "FPS",
+    "gpuDemand": 0.2,
+    "cpuDemand": 1.4,
+    "baseFps1080pMedium": 500,
+    "requirements": {
+      "min": { "gpu": "gt-1030", "cpu": "core-i3-10100", "ram": 4, "storage": 20 },
+      "recommended": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 40 }
+    },
+    "popularity": 95
+  },
+  {
+    "id": "rainbow-six-siege",
+    "name": "Rainbow Six Siege",
+    "year": 2015,
+    "genre": "FPS",
+    "gpuDemand": 0.4,
+    "cpuDemand": 1.0,
+    "baseFps1080pMedium": 400,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 8, "storage": 61 },
+      "recommended": { "gpu": "gtx-1660-ti", "cpu": "core-i5-10400", "ram": 16, "storage": 61 }
+    },
+    "popularity": 88
+  },
+  {
+    "id": "overwatch-2",
+    "name": "Overwatch 2",
+    "year": 2022,
+    "genre": "FPS",
+    "gpuDemand": 0.4,
+    "cpuDemand": 1.1,
+    "baseFps1080pMedium": 350,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 6, "storage": 50 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 12, "storage": 50 }
+    },
+    "popularity": 82
+  },
+  {
+    "id": "dota-2",
+    "name": "DOTA 2",
+    "year": 2013,
+    "genre": "MOBA",
+    "gpuDemand": 0.3,
+    "cpuDemand": 1.2,
+    "baseFps1080pMedium": 250,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 4, "storage": 15 },
+      "recommended": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 15 }
+    },
+    "popularity": 85
+  },
+  {
+    "id": "league-of-legends",
+    "name": "League of Legends",
+    "year": 2009,
+    "genre": "MOBA",
+    "gpuDemand": 0.2,
+    "cpuDemand": 1.3,
+    "baseFps1080pMedium": 450,
+    "requirements": {
+      "min": { "gpu": "gt-1030", "cpu": "core-i3-10100", "ram": 4, "storage": 16 },
+      "recommended": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 16 }
+    },
+    "popularity": 97
+  },
+  {
+    "id": "rocket-league",
+    "name": "Rocket League",
+    "year": 2015,
+    "genre": "Racing",
+    "gpuDemand": 0.3,
+    "cpuDemand": 1.1,
+    "baseFps1080pMedium": 400,
+    "requirements": {
+      "min": { "gpu": "gt-1030", "cpu": "core-i3-10100", "ram": 4, "storage": 20 },
+      "recommended": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 20 }
+    },
+    "popularity": 72
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite",
+    "year": 2017,
+    "genre": "Battle Royale",
+    "gpuDemand": 0.5,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 280,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 8, "storage": 40 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 16, "storage": 40 }
+    },
+    "popularity": 96
+  },
+  {
+    "id": "apex-legends",
+    "name": "Apex Legends",
+    "year": 2019,
+    "genre": "Battle Royale",
+    "gpuDemand": 0.5,
+    "cpuDemand": 0.9,
+    "baseFps1080pMedium": 300,
+    "requirements": {
+      "min": { "gpu": "gtx-1650-super", "cpu": "core-i3-10100", "ram": 6, "storage": 56 },
+      "recommended": { "gpu": "gtx-1660-ti", "cpu": "core-i5-10400", "ram": 12, "storage": 56 }
+    },
+    "popularity": 85
+  },
+  {
+    "id": "call-of-duty-warzone",
+    "name": "Call of Duty: Warzone",
+    "year": 2020,
+    "genre": "Battle Royale",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 8, "storage": 175 },
+      "recommended": { "gpu": "rtx-3060-ti", "cpu": "core-i7-10700k", "ram": 16, "storage": 175 }
+    },
+    "popularity": 83
+  },
+  {
+    "id": "pubg-battlegrounds",
+    "name": "PUBG: Battlegrounds",
+    "year": 2017,
+    "genre": "Battle Royale",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 40 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i5-10600k", "ram": 16, "storage": 50 }
+    },
+    "popularity": 78
+  },
+  {
+    "id": "doom-eternal",
+    "name": "DOOM Eternal",
+    "year": 2020,
+    "genre": "FPS",
+    "gpuDemand": 0.5,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 360,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 8, "storage": 50 },
+      "recommended": { "gpu": "rx-5700-xt", "cpu": "core-i7-10700k", "ram": 16, "storage": 50 }
+    },
+    "popularity": 74
+  },
+  {
+    "id": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V",
+    "year": 2015,
+    "genre": "Action",
+    "gpuDemand": 0.5,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 220,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 6, "storage": 72 },
+      "recommended": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 12, "storage": 92 }
+    },
+    "popularity": 92
+  },
+  {
+    "id": "forza-horizon-5",
+    "name": "Forza Horizon 5",
+    "year": 2021,
+    "genre": "Racing",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 110 },
+      "recommended": { "gpu": "rtx-2070-super", "cpu": "core-i5-10600k", "ram": 16, "storage": 110 }
+    },
+    "popularity": 75
+  },
+  {
+    "id": "horizon-zero-dawn",
+    "name": "Horizon Zero Dawn",
+    "year": 2020,
+    "genre": "RPG",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 70 },
+      "recommended": { "gpu": "rtx-2060-super", "cpu": "core-i7-10700k", "ram": 16, "storage": 70 }
+    },
+    "popularity": 68
+  },
+  {
+    "id": "god-of-war",
+    "name": "God of War",
+    "year": 2022,
+    "genre": "Action",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 70 },
+      "recommended": { "gpu": "rtx-2060-super", "cpu": "core-i7-10700k", "ram": 16, "storage": 70 }
+    },
+    "popularity": 80
+  },
+  {
+    "id": "spider-man-remastered",
+    "name": "Spider-Man Remastered",
+    "year": 2022,
+    "genre": "Action",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 75 },
+      "recommended": { "gpu": "rtx-2060-super", "cpu": "core-i7-10700k", "ram": 16, "storage": 75 }
+    },
+    "popularity": 69
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "year": 2019,
+    "genre": "Action",
+    "gpuDemand": 0.9,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 150,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 150 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 150 }
+    },
+    "popularity": 86
+  },
+  {
+    "id": "call-of-duty-modern-warfare-iii",
+    "name": "Call of Duty: Modern Warfare III",
+    "year": 2023,
+    "genre": "FPS",
+    "gpuDemand": 0.6,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1650", "cpu": "core-i5-10400", "ram": 8, "storage": 149 },
+      "recommended": { "gpu": "rtx-3060-ti", "cpu": "core-i7-10700k", "ram": 16, "storage": 149 }
+    },
+    "popularity": 70
+  },
+  {
+    "id": "control",
+    "name": "Control",
+    "year": 2019,
+    "genre": "Action",
+    "gpuDemand": 0.9,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 42 },
+      "recommended": { "gpu": "gtx-1660-ti", "cpu": "core-i5-10600k", "ram": 16, "storage": 42 }
+    },
+    "popularity": 55
+  },
+  {
+    "id": "metro-exodus",
+    "name": "Metro Exodus",
+    "year": 2019,
+    "genre": "FPS",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 67 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 67 }
+    },
+    "popularity": 58
+  },
+  {
+    "id": "star-wars-jedi-survivor",
+    "name": "Star Wars Jedi: Survivor",
+    "year": 2023,
+    "genre": "Action",
+    "gpuDemand": 0.9,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 120,
+    "requirements": {
+      "min": { "gpu": "gtx-1070", "cpu": "core-i7-10700k", "ram": 8, "storage": 130 },
+      "recommended": { "gpu": "rtx-2070", "cpu": "core-i7-12700k", "ram": 16, "storage": 130 }
+    },
+    "popularity": 62
+  },
+  {
+    "id": "alan-wake-2",
+    "name": "Alan Wake 2",
+    "year": 2023,
+    "genre": "Action",
+    "gpuDemand": 1.1,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 100,
+    "requirements": {
+      "min": { "gpu": "rtx-2060-6gb", "cpu": "core-i5-10600k", "ram": 16, "storage": 90 },
+      "recommended": { "gpu": "rtx-3070", "cpu": "core-i7-12700k", "ram": 16, "storage": 90 }
+    },
+    "popularity": 55
+  },
+  {
+    "id": "starfield",
+    "name": "Starfield",
+    "year": 2023,
+    "genre": "RPG",
+    "gpuDemand": 1.0,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 100,
+    "requirements": {
+      "min": { "gpu": "gtx-1070-ti", "cpu": "core-i5-10400", "ram": 16, "storage": 125 },
+      "recommended": { "gpu": "rtx-2070-super", "cpu": "core-i5-10600k", "ram": 16, "storage": 125 }
+    },
+    "popularity": 70
+  },
+  {
+    "id": "microsoft-flight-simulator",
+    "name": "Microsoft Flight Simulator",
+    "year": 2020,
+    "genre": "Simulation",
+    "gpuDemand": 1.2,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 80,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 16, "storage": 150 },
+      "recommended": { "gpu": "rtx-2080", "cpu": "core-i7-10700k", "ram": 32, "storage": 150 }
+    },
+    "popularity": 55
+  },
+  {
+    "id": "cyberpunk-2077-path-tracing",
+    "name": "Cyberpunk 2077 (Path Tracing)",
+    "year": 2023,
+    "genre": "RPG",
+    "gpuDemand": 1.4,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 60,
+    "requirements": {
+      "min": { "gpu": "rtx-4070", "cpu": "core-i5-12600k", "ram": 16, "storage": 70 },
+      "recommended": { "gpu": "rtx-4090", "cpu": "ryzen-7-7800x3d", "ram": 32, "storage": 70 }
+    },
+    "popularity": 40
+  },
+  {
+    "id": "escape-from-tarkov",
+    "name": "Escape from Tarkov",
+    "year": 2017,
+    "genre": "FPS",
+    "gpuDemand": 0.6,
+    "cpuDemand": 1.2,
+    "baseFps1080pMedium": 140,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 12, "storage": 30 },
+      "recommended": { "gpu": "rtx-2070-super", "cpu": "core-i7-10700k", "ram": 32, "storage": 50 }
+    },
+    "popularity": 65
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "year": 2018,
+    "genre": "Survival",
+    "gpuDemand": 0.6,
+    "cpuDemand": 1.1,
+    "baseFps1080pMedium": 150,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 10, "storage": 25 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i7-10700k", "ram": 16, "storage": 40 }
+    },
+    "popularity": 70
+  },
+  {
+    "id": "world-of-warcraft-retail",
+    "name": "World of Warcraft (Retail)",
+    "year": 2004,
+    "genre": "MMO",
+    "gpuDemand": 0.3,
+    "cpuDemand": 1.2,
+    "baseFps1080pMedium": 250,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 4, "storage": 70 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 8, "storage": 70 }
+    },
+    "popularity": 78
+  },
+  {
+    "id": "final-fantasy-xiv",
+    "name": "Final Fantasy XIV",
+    "year": 2013,
+    "genre": "MMO",
+    "gpuDemand": 0.4,
+    "cpuDemand": 0.9,
+    "baseFps1080pMedium": 250,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 4, "storage": 80 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 8, "storage": 80 }
+    },
+    "popularity": 60
+  },
+  {
+    "id": "arma-3",
+    "name": "ARMA 3",
+    "year": 2013,
+    "genre": "Simulation",
+    "gpuDemand": 0.4,
+    "cpuDemand": 1.3,
+    "baseFps1080pMedium": 120,
+    "requirements": {
+      "min": { "gpu": "gtx-1050", "cpu": "core-i3-10100", "ram": 4, "storage": 45 },
+      "recommended": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 45 }
+    },
+    "popularity": 48
+  },
+  {
+    "id": "dayz",
+    "name": "DayZ",
+    "year": 2018,
+    "genre": "Survival",
+    "gpuDemand": 0.5,
+    "cpuDemand": 1.0,
+    "baseFps1080pMedium": 150,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 25 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10600k", "ram": 12, "storage": 25 }
+    },
+    "popularity": 52
+  },
+  {
+    "id": "civilization-vi",
+    "name": "Civilization VI",
+    "year": 2016,
+    "genre": "Strategy",
+    "gpuDemand": 0.3,
+    "cpuDemand": 1.0,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gt-1030", "cpu": "core-i3-10100", "ram": 4, "storage": 20 },
+      "recommended": { "gpu": "gtx-1050", "cpu": "core-i5-10400", "ram": 8, "storage": 20 }
+    },
+    "popularity": 68
+  },
+  {
+    "id": "total-war-warhammer-iii",
+    "name": "Total War: Warhammer III",
+    "year": 2022,
+    "genre": "Strategy",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 120 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 120 }
+    },
+    "popularity": 55
+  },
+  {
+    "id": "the-witcher-3-wild-hunt",
+    "name": "The Witcher 3: Wild Hunt",
+    "year": 2015,
+    "genre": "RPG",
+    "gpuDemand": 0.6,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 250,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 6, "storage": 50 },
+      "recommended": { "gpu": "gtx-1070", "cpu": "core-i7-10700k", "ram": 16, "storage": 50 }
+    },
+    "popularity": 88
+  },
+  {
+    "id": "hell-let-loose",
+    "name": "Hell Let Loose",
+    "year": 2021,
+    "genre": "FPS",
+    "gpuDemand": 0.6,
+    "cpuDemand": 1.0,
+    "baseFps1080pMedium": 140,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 30 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10600k", "ram": 16, "storage": 30 }
+    },
+    "popularity": 35
+  },
+  {
+    "id": "helldivers-2",
+    "name": "Helldivers 2",
+    "year": 2024,
+    "genre": "Action",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 100 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 100 }
+    },
+    "popularity": 74
+  },
+  {
+    "id": "palworld",
+    "name": "Palworld",
+    "year": 2024,
+    "genre": "Survival",
+    "gpuDemand": 0.6,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 40 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 40 }
+    },
+    "popularity": 65
+  },
+  {
+    "id": "dead-space-remake",
+    "name": "Dead Space (Remake)",
+    "year": 2023,
+    "genre": "Action",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 50 },
+      "recommended": { "gpu": "rtx-2070", "cpu": "core-i5-11600k", "ram": 16, "storage": 50 }
+    },
+    "popularity": 58
+  },
+  {
+    "id": "resident-evil-4-remake",
+    "name": "Resident Evil 4 Remake",
+    "year": 2023,
+    "genre": "Action",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 60 },
+      "recommended": { "gpu": "rtx-2070", "cpu": "core-i7-10700k", "ram": 16, "storage": 60 }
+    },
+    "popularity": 77
+  },
+  {
+    "id": "dragons-dogma-2",
+    "name": "Dragon's Dogma 2",
+    "year": 2024,
+    "genre": "RPG",
+    "gpuDemand": 1.0,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 100,
+    "requirements": {
+      "min": { "gpu": "gtx-1070", "cpu": "core-i5-10600k", "ram": 16, "storage": 80 },
+      "recommended": { "gpu": "rtx-2070-super", "cpu": "core-i7-10700k", "ram": 32, "storage": 80 }
+    },
+    "popularity": 55
+  },
+  {
+    "id": "ghost-of-tsushima",
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "year": 2024,
+    "genre": "Action",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 75 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i5-11400", "ram": 16, "storage": 75 }
+    },
+    "popularity": 72
+  },
+  {
+    "id": "tekken-8",
+    "name": "Tekken 8",
+    "year": 2024,
+    "genre": "Fighting",
+    "gpuDemand": 0.6,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 8, "storage": 60 },
+      "recommended": { "gpu": "rtx-2070", "cpu": "core-i7-10700k", "ram": 16, "storage": 60 }
+    },
+    "popularity": 45
+  },
+  {
+    "id": "street-fighter-6",
+    "name": "Street Fighter 6",
+    "year": 2023,
+    "genre": "Fighting",
+    "gpuDemand": 0.5,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 240,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 8, "storage": 60 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i5-10400", "ram": 16, "storage": 60 }
+    },
+    "popularity": 50
+  },
+  {
+    "id": "marvel-rivals",
+    "name": "Marvel Rivals",
+    "year": 2024,
+    "genre": "Action",
+    "gpuDemand": 0.6,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 70 },
+      "recommended": { "gpu": "rtx-2060-super", "cpu": "core-i5-11600k", "ram": 16, "storage": 70 }
+    },
+    "popularity": 60
+  },
+  {
+    "id": "payday-3",
+    "name": "Payday 3",
+    "year": 2023,
+    "genre": "FPS",
+    "gpuDemand": 0.6,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1650", "cpu": "core-i5-10400", "ram": 8, "storage": 40 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 40 }
+    },
+    "popularity": 32
+  },
+  {
+    "id": "the-division-2",
+    "name": "Tom Clancy's The Division 2",
+    "year": 2019,
+    "genre": "RPG",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 50 },
+      "recommended": { "gpu": "gtx-1660-ti", "cpu": "core-i7-10700k", "ram": 16, "storage": 50 }
+    },
+    "popularity": 55
+  },
+  {
+    "id": "days-gone",
+    "name": "Days Gone",
+    "year": 2021,
+    "genre": "Action",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.5,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 60 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 60 }
+    },
+    "popularity": 50
+  },
+  {
+    "id": "counter-strike-global-offensive",
+    "name": "Counter-Strike: Global Offensive",
+    "year": 2012,
+    "genre": "FPS",
+    "gpuDemand": 0.2,
+    "cpuDemand": 1.2,
+    "baseFps1080pMedium": 380,
+    "requirements": {
+      "min": { "gpu": "gt-1030", "cpu": "core-i3-10100", "ram": 2, "storage": 15 },
+      "recommended": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 4, "storage": 15 }
+    },
+    "popularity": 65
+  },
+  {
+    "id": "the-finals",
+    "name": "The Finals",
+    "year": 2023,
+    "genre": "FPS",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.8,
+    "baseFps1080pMedium": 180,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i5-10400", "ram": 12, "storage": 40 },
+      "recommended": { "gpu": "rtx-2070-super", "cpu": "core-i5-11600k", "ram": 16, "storage": 40 }
+    },
+    "popularity": 48
+  },
+  {
+    "id": "destiny-2",
+    "name": "Destiny 2",
+    "year": 2017,
+    "genre": "FPS",
+    "gpuDemand": 0.5,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 220,
+    "requirements": {
+      "min": { "gpu": "gtx-1050-ti", "cpu": "core-i3-10100", "ram": 6, "storage": 105 },
+      "recommended": { "gpu": "gtx-1660-super", "cpu": "core-i5-10400", "ram": 8, "storage": 105 }
+    },
+    "popularity": 68
+  },
+  {
+    "id": "borderlands-3",
+    "name": "Borderlands 3",
+    "year": 2019,
+    "genre": "FPS",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 200,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 8, "storage": 75 },
+      "recommended": { "gpu": "gtx-1660-ti", "cpu": "core-i5-10600k", "ram": 16, "storage": 75 }
+    },
+    "popularity": 60
+  },
+  {
+    "id": "returnal",
+    "name": "Returnal",
+    "year": 2023,
+    "genre": "Action",
+    "gpuDemand": 0.8,
+    "cpuDemand": 0.6,
+    "baseFps1080pMedium": 140,
+    "requirements": {
+      "min": { "gpu": "gtx-1060-6gb", "cpu": "core-i5-10400", "ram": 16, "storage": 60 },
+      "recommended": { "gpu": "rtx-2070-super", "cpu": "core-i7-10700k", "ram": 32, "storage": 60 }
+    },
+    "popularity": 40
+  },
+  {
+    "id": "remnant-2",
+    "name": "Remnant 2",
+    "year": 2023,
+    "genre": "Action",
+    "gpuDemand": 0.7,
+    "cpuDemand": 0.7,
+    "baseFps1080pMedium": 160,
+    "requirements": {
+      "min": { "gpu": "gtx-1650", "cpu": "core-i5-10400", "ram": 8, "storage": 60 },
+      "recommended": { "gpu": "rtx-2060-6gb", "cpu": "core-i7-10700k", "ram": 16, "storage": 60 }
+    },
+    "popularity": 42
+  }
+]

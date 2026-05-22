@@ -1,0 +1,560 @@
+[
+  {
+    "id": "asus-prime-a320m-k",
+    "brand": "ASUS",
+    "name": "Prime A320M-K",
+    "socket": "AM4",
+    "chipset": "A320",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "gigabyte-b450m-ds3h",
+    "brand": "Gigabyte",
+    "name": "B450M DS3H",
+    "socket": "AM4",
+    "chipset": "B450",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "msi-b450-tomahawk-max",
+    "brand": "MSI",
+    "name": "B450 TOMAHAWK MAX",
+    "socket": "AM4",
+    "chipset": "B450",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-rog-strix-b450-f-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX B450-F GAMING",
+    "socket": "AM4",
+    "chipset": "B450",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asrock-b550-phantom-gaming-4",
+    "brand": "ASRock",
+    "name": "B550 Phantom Gaming 4",
+    "socket": "AM4",
+    "chipset": "B550",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "gigabyte-b550-aorus-elite",
+    "brand": "Gigabyte",
+    "name": "B550 AORUS ELITE",
+    "socket": "AM4",
+    "chipset": "B550",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "msi-mpg-b550-gaming-plus",
+    "brand": "MSI",
+    "name": "MPG B550 GAMING PLUS",
+    "socket": "AM4",
+    "chipset": "B550",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-tuf-gaming-b550-plus",
+    "brand": "ASUS",
+    "name": "TUF GAMING B550-PLUS",
+    "socket": "AM4",
+    "chipset": "B550",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-rog-crosshair-vi-hero",
+    "brand": "ASUS",
+    "name": "ROG CROSSHAIR VI HERO",
+    "socket": "AM4",
+    "chipset": "X370",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "asus-rog-crosshair-vii-hero",
+    "brand": "ASUS",
+    "name": "ROG CROSSHAIR VII HERO",
+    "socket": "AM4",
+    "chipset": "X470",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "gigabyte-x470-aorus-gaming-7",
+    "brand": "Gigabyte",
+    "name": "X470 AORUS GAMING 7",
+    "socket": "AM4",
+    "chipset": "X470",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "msi-x470-gaming-pro-carbon",
+    "brand": "MSI",
+    "name": "X470 GAMING PRO CARBON",
+    "socket": "AM4",
+    "chipset": "X470",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "asus-rog-crosshair-viii-hero",
+    "brand": "ASUS",
+    "name": "ROG CROSSHAIR VIII HERO",
+    "socket": "AM4",
+    "chipset": "X570",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "gigabyte-x570-aorus-master",
+    "brand": "Gigabyte",
+    "name": "X570 AORUS MASTER",
+    "socket": "AM4",
+    "chipset": "X570",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "msi-meg-x570-unify",
+    "brand": "MSI",
+    "name": "MEG X570 UNIFY",
+    "socket": "AM4",
+    "chipset": "X570",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asrock-x570-taichi",
+    "brand": "ASRock",
+    "name": "X570 TAICHI",
+    "socket": "AM4",
+    "chipset": "X570",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-rog-strix-x570-e-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX X570-E GAMING",
+    "socket": "AM4",
+    "chipset": "X570",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-prime-b650m-a-wifi",
+    "brand": "ASUS",
+    "name": "Prime B650M-A WIFI",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "gigabyte-b650-gaming-x",
+    "brand": "Gigabyte",
+    "name": "B650 GAMING X",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "msi-pro-b650-p-wifi",
+    "brand": "MSI",
+    "name": "PRO B650-P WIFI",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asrock-b650-pro-rs",
+    "brand": "ASRock",
+    "name": "B650 PRO RS",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-rog-strix-b650-a-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX B650-A GAMING",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "gigabyte-b650-aorus-elite",
+    "brand": "Gigabyte",
+    "name": "B650 AORUS ELITE",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "msi-mag-b650-tomahawk-wifi",
+    "brand": "MSI",
+    "name": "MAG B650 TOMAHAWK WIFI",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "asus-b650m-r",
+    "brand": "ASUS",
+    "name": "B650M-R",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "asus-b650m-k",
+    "brand": "ASUS",
+    "name": "B650M-K",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "msi-b650m-gaming-plus-wifi",
+    "brand": "MSI",
+    "name": "B650M GAMING PLUS WIFI",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "gigabyte-b650m-ds3h",
+    "brand": "Gigabyte",
+    "name": "B650M DS3H",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "asrock-b650m-hdv-m2",
+    "brand": "ASRock",
+    "name": "B650M-HDV/M.2",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "asus-tuf-gaming-b650m-plus",
+    "brand": "ASUS",
+    "name": "TUF GAMING B650M-PLUS",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "msi-pro-b650m-a-wifi",
+    "brand": "MSI",
+    "name": "PRO B650M-A WIFI",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Micro-ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "gigabyte-x670-gaming-x",
+    "brand": "Gigabyte",
+    "name": "X670 GAMING X",
+    "socket": "AM5",
+    "chipset": "X670",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "asus-prime-x670-p-wifi",
+    "brand": "ASUS",
+    "name": "PRIME X670-P WIFI",
+    "socket": "AM5",
+    "chipset": "X670",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "gigabyte-b650e-aorus-stealth",
+    "brand": "Gigabyte",
+    "name": "B650E AORUS STEALTH",
+    "socket": "AM5",
+    "chipset": "B650E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "msi-b650i-edge-wifi",
+    "brand": "MSI",
+    "name": "B650I EDGE WIFI",
+    "socket": "AM5",
+    "chipset": "B650",
+    "formFactor": "Mini-ITX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-rog-strix-x670e-e-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX X670E-E GAMING",
+    "socket": "AM5",
+    "chipset": "X670E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "gigabyte-x670e-aorus-master",
+    "brand": "Gigabyte",
+    "name": "X670E AORUS MASTER",
+    "socket": "AM5",
+    "chipset": "X670E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "msi-meg-x670e-godlike",
+    "brand": "MSI",
+    "name": "MEG X670E GODLIKE",
+    "socket": "AM5",
+    "chipset": "X670E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asrock-x670e-taichi",
+    "brand": "ASRock",
+    "name": "X670E TAICHI",
+    "socket": "AM5",
+    "chipset": "X670E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-rog-crosshair-x670e-hero",
+    "brand": "ASUS",
+    "name": "ROG CROSSHAIR X670E HERO",
+    "socket": "AM5",
+    "chipset": "X670E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-rog-crosshair-x870e-hero",
+    "brand": "ASUS",
+    "name": "ROG CROSSHAIR X870E HERO",
+    "socket": "AM5",
+    "chipset": "X870E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "gigabyte-x870e-aorus-master",
+    "brand": "Gigabyte",
+    "name": "X870E AORUS MASTER",
+    "socket": "AM5",
+    "chipset": "X870E",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "msi-z490-a-pro",
+    "brand": "MSI",
+    "name": "Z490-A PRO",
+    "socket": "LGA1200",
+    "chipset": "Z490",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-rog-strix-z490-e-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX Z490-E GAMING",
+    "socket": "LGA1200",
+    "chipset": "Z490",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "gigabyte-z590-aorus-master",
+    "brand": "Gigabyte",
+    "name": "Z590 AORUS MASTER",
+    "socket": "LGA1200",
+    "chipset": "Z590",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-rog-maximus-xiii-hero",
+    "brand": "ASUS",
+    "name": "ROG MAXIMUS XIII HERO",
+    "socket": "LGA1200",
+    "chipset": "Z590",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-prime-h610m-a-d4",
+    "brand": "ASUS",
+    "name": "Prime H610M-A D4",
+    "socket": "LGA1700",
+    "chipset": "H610",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "gigabyte-b660m-ds3h",
+    "brand": "Gigabyte",
+    "name": "B660M DS3H",
+    "socket": "LGA1700",
+    "chipset": "B660",
+    "formFactor": "Micro-ATX",
+    "priceClass": "budget"
+  },
+  {
+    "id": "msi-pro-b660-a",
+    "brand": "MSI",
+    "name": "PRO B660-A",
+    "socket": "LGA1700",
+    "chipset": "B660",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-tuf-gaming-b660-plus",
+    "brand": "ASUS",
+    "name": "TUF GAMING B660-PLUS",
+    "socket": "LGA1700",
+    "chipset": "B660",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "gigabyte-b760-aorus-elite",
+    "brand": "Gigabyte",
+    "name": "B760 AORUS ELITE",
+    "socket": "LGA1700",
+    "chipset": "B760",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "msi-mag-b760-tomahawk-wifi",
+    "brand": "MSI",
+    "name": "MAG B760 TOMAHAWK WIFI",
+    "socket": "LGA1700",
+    "chipset": "B760",
+    "formFactor": "ATX",
+    "priceClass": "mid-range"
+  },
+  {
+    "id": "asus-rog-strix-z690-e-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX Z690-E GAMING",
+    "socket": "LGA1700",
+    "chipset": "Z690",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "gigabyte-z690-aorus-pro",
+    "brand": "Gigabyte",
+    "name": "Z690 AORUS PRO",
+    "socket": "LGA1700",
+    "chipset": "Z690",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "msi-mpg-z690-carbon-wifi",
+    "brand": "MSI",
+    "name": "MPG Z690 CARBON WIFI",
+    "socket": "LGA1700",
+    "chipset": "Z690",
+    "formFactor": "ATX",
+    "priceClass": "high-end"
+  },
+  {
+    "id": "asus-rog-maximus-z790-hero",
+    "brand": "ASUS",
+    "name": "ROG MAXIMUS Z790 HERO",
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "gigabyte-z790-aorus-master",
+    "brand": "Gigabyte",
+    "name": "Z790 AORUS MASTER",
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "msi-meg-z790-ace",
+    "brand": "MSI",
+    "name": "MEG Z790 ACE",
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asrock-z790-taichi",
+    "brand": "ASRock",
+    "name": "Z790 TAICHI",
+    "socket": "LGA1700",
+    "chipset": "Z790",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "asus-rog-strix-z890-e-gaming",
+    "brand": "ASUS",
+    "name": "ROG STRIX Z890-E GAMING",
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "gigabyte-z890-aorus-master",
+    "brand": "Gigabyte",
+    "name": "Z890 AORUS MASTER",
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  },
+  {
+    "id": "msi-meg-z890-ace",
+    "brand": "MSI",
+    "name": "MEG Z890 ACE",
+    "socket": "LGA1851",
+    "chipset": "Z890",
+    "formFactor": "ATX",
+    "priceClass": "enthusiast"
+  }
+]

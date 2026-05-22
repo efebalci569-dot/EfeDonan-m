@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EfeDonanım - Darboğaz & FPS Test Aracı</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <i class="bi bi-cpu fs-3 me-2 text-neon"></i>
+        <span class="fw-800">Efe<span class="text-neon">Donanım</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-house-fill me-1"></i>Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#results"><i class="bi bi-graph-up me-1"></i>Sonuçlar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <div class="hero-badge"><i class="bi bi-tools me-1"></i> Profesyonel Donanım Test Aracı</div>
+      <h1 class="display-4 fw-900 hero-title mt-3">Sistemini Test Et,<br><span class="text-neon">Performansını Keşfet</span></h1>
+      <p class="lead text-gray mt-3">Ekran kartı, işlemci ve anakart seçimlerinize göre darboğaz analizi, <br>oyun performansı ve FPS tahminleri alın.</p>
+    </div>
+  </section>
+
+  <!-- INFO SECTION -->
+  <section class="container mb-5">
+    <div class="row g-4 info-section">
+      <div class="col-lg-3 col-md-6">
+        <div class="info-card">
+          <div class="info-icon"><i class="bi bi-speedometer2"></i></div>
+          <h5 class="info-title">FPS Nedir?</h5>
+          <p class="info-text">FPS (Frame Per Second), oyunun saniyede ekrana yansıttığı kare sayısıdır. 60 FPS akıcı oyun deneyimi için ideal kabul edilir, 120+ FPS ise rekabetçi oyunlarda avantaj sağlar. FPS değeri; ekran kartı, işlemci, RAM ve oyunun optimizasyonuna bağlı olarak değişir.</p>
+          <div class="info-tags">
+            <span class="info-tag fps-tag-30">30+ Düşük</span>
+            <span class="info-tag fps-tag-60">60+ Akıcı</span>
+            <span class="info-tag fps-tag-120">120+ Çok Akıcı</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-card">
+          <div class="info-icon"><i class="bi bi-bar-chart-steps"></i></div>
+          <h5 class="info-title">Darboğaz Nedir?</h5>
+          <p class="info-text">Darboğaz (Bottleneck), sistem bileşenlerinden birinin diğerine kıyasla yetersiz kalması durumudur. Örneğin güçlü bir ekran kartına sahipken zayıf bir işlemci kullanıyorsanız, işlemci ekran kartının tam performansını kullanmasını engeller, bu da oyunlarda düşük FPS'e yol açar.</p>
+          <div class="info-tips">
+            <div class="tip-row"><span class="tip-dot cpu-dot"></span> CPU Darboğazı: İşlemci yetersiz</div>
+            <div class="tip-row"><span class="tip-dot gpu-dot"></span> GPU Darboğazı: Ekran kartı yetersiz</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-card">
+          <div class="info-icon"><i class="bi bi-cpu"></i></div>
+          <h5 class="info-title">Donanım Nedir?</h5>
+          <p class="info-text">Bilgisayar donanımı, fiziksel bileşenlerin tümünü kapsar. Oyun performansını etkileyen başlıca donanımlar: Ekran Kartı (GPU) - görüntüyü işler, İşlemci (CPU) - hesaplamaları yapar, Anakart - tüm bileşenleri birleştirir ve RAM - geçici verileri depolar.</p>
+          <div class="info-components">
+            <div><i class="bi bi-gpu-card"></i> GPU</div>
+            <div><i class="bi bi-cpu"></i> CPU</div>
+            <div><i class="bi bi-motherboard"></i> Anakart</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-card">
+          <div class="info-icon"><i class="bi bi-tools"></i></div>
+          <h5 class="info-title">Bu Site Ne İşe Yarar?</h5>
+          <p class="info-text">Seçtiğiniz ekran kartı, işlemci, anakart ve oyuna göre sisteminizde darboğaz olup olmadığını test eder, hangi oyunlarda kaç FPS alacağınızı tahmin eder. Ayrıca hangi bileşeni yükseltmeniz gerektiği konusunda öneriler sunarak bütçenizi en doğru şekilde yönlendirmenize yardımcı olur.</p>
+          <div class="info-features">
+            <span><i class="bi bi-check-circle"></i> Darboğaz Testi</span>
+            <span><i class="bi bi-check-circle"></i> FPS Tahmini</span>
+            <span><i class="bi bi-check-circle"></i> Yükseltme Önerisi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTION PANEL -->
+  <section class="container mb-5">
+    <div class="selection-panel">
+      <div class="row g-3 align-items-end">
+        <div class="col-lg-3 col-md-6">
+          <label class="form-label"><i class="bi bi-gpu-card me-1 text-neon"></i> Ekran Kartı (GPU)</label>
+          <select id="gpuSelect" class="form-select form-select-lg">
+            <option value="">GPU Seçin...</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <label class="form-label"><i class="bi bi-motherboard me-1 text-neon"></i> Anakart</label>
+          <select id="motherboardSelect" class="form-select form-select-lg">
+            <option value="">Anakart Seçin...</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <label class="form-label"><i class="bi bi-cpu me-1 text-neon"></i> İşlemci (CPU)</label>
+          <select id="cpuSelect" class="form-select form-select-lg" disabled>
+            <option value="">Önce anakart seçin</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <label class="form-label"><i class="bi bi-display me-1 text-neon"></i> Çözünürlük</label>
+          <select id="resolutionSelect" class="form-select form-select-lg">
+            <option value="">Çözünürlük Seçin...</option>
+          </select>
+        </div>
+        <div class="col-lg-8 mt-3">
+          <label class="form-label"><i class="bi bi-controller me-1 text-neon"></i> Oyun</label>
+          <select id="gameSelect" class="form-select form-select-lg">
+            <option value="">Oyun Seçin...</option>
+          </select>
+        </div>
+        <div class="col-lg-4 mt-3 d-flex align-items-end">
+          <button id="calculateBtn" class="btn btn-neon w-100 btn-lg" disabled>
+            <i class="bi bi-search me-2"></i>HESAPLA
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOADING -->
+  <div id="loadingOverlay" class="loading-overlay d-none">
+    <div class="spinner"></div>
+    <p class="mt-3 text-neon fw-600">Hesaplanıyor...</p>
+  </div>
+
+  <!-- RESULTS SECTION -->
+  <section id="results" class="container mb-5 d-none">
+    <div class="row g-4">
+
+      <!-- BOTTLENECK ANALYSIS -->
+      <div class="col-12">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-speedometer2 fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">Darboğaz Analizi</h4>
+          </div>
+          <div id="bottleneckContent" class="row align-items-center">
+            <div class="col-md-8">
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span><i class="bi bi-cpu me-1"></i> İşlemci (CPU)</span>
+                  <span id="cpuPercent" class="fw-600">0%</span>
+                </div>
+                <div class="progress bottleneck-bar"><div id="cpuBar" class="progress-bar progress-cpu" style="width:0%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span><i class="bi bi-gpu-card me-1"></i> Ekran Kartı (GPU)</span>
+                  <span id="gpuPercent" class="fw-600">0%</span>
+                </div>
+                <div class="progress bottleneck-bar"><div id="gpuBar" class="progress-bar progress-gpu" style="width:0%"></div></div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div id="bottleneckBadge" class="bottleneck-badge bottleneck-none">
+                <span id="bottleneckText">Darboğaz Yok</span>
+              </div>
+              <div id="bottleneckDetail" class="mt-2 small text-gray"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FPS & PLAYABILITY SUMMARY -->
+      <div class="col-12">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-bar-chart-fill fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">FPS ve Oynanabilirlik Özeti</h4>
+            <span id="selectedGameName" class="ms-3 badge bg-dark text-neon"></span>
+          </div>
+          <div id="fpsCards" class="row g-3">
+            <div class="col-6 col-lg-3">
+              <div class="fps-card fps-card-low"><div class="fps-label">Düşük</div><div class="fps-value" id="fpsLow">0</div><div class="fps-badge fps-badge-success" id="badgeLow">Akıcı</div></div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="fps-card fps-card-medium"><div class="fps-label">Orta</div><div class="fps-value" id="fpsMedium">0</div><div class="fps-badge fps-badge-success" id="badgeMedium">Akıcı</div></div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="fps-card fps-card-high"><div class="fps-label">Yüksek</div><div class="fps-value" id="fpsHigh">0</div><div class="fps-badge fps-badge-success" id="badgeHigh">Akıcı</div></div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="fps-card fps-card-ultra"><div class="fps-label">Ultra</div><div class="fps-value" id="fpsUltra">0</div><div class="fps-badge fps-badge-success" id="badgeUltra">Akıcı</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FPS DISTRIBUTION CHART & SYSTEM REQS -->
+      <div class="col-lg-8">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-graph-up-arrow fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">FPS Dağılım Grafiği</h4>
+          </div>
+          <canvas id="fpsChart" height="250"></canvas>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="result-card h-100">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-info-circle fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">Sistem Gereksinimleri</h4>
+          </div>
+          <div id="systemReqs">
+            <div class="req-item"><span class="req-label">Minimum GPU</span><span class="req-value" id="minGpu">-</span></div>
+            <div class="req-item"><span class="req-label">Önerilen GPU</span><span class="req-value" id="recGpu">-</span></div>
+            <div class="req-item"><span class="req-label">Minimum CPU</span><span class="req-value" id="minCpu">-</span></div>
+            <div class="req-item"><span class="req-label">Önerilen CPU</span><span class="req-value" id="recCpu">-</span></div>
+            <div class="req-item"><span class="req-label">Minimum RAM</span><span class="req-value" id="minRam">-</span></div>
+            <div class="req-item"><span class="req-label">Önerilen RAM</span><span class="req-value" id="recRam">-</span></div>
+            <div class="req-item"><span class="req-label">Depolama</span><span class="req-value" id="reqStorage">-</span></div>
+            <div class="mt-3">
+              <div class="d-flex justify-content-between mb-1"><span>GPU Yeterlilik</span><span id="gpuFitText" class="fw-600">-</span></div>
+              <div class="progress req-progress"><div id="gpuFitBar" class="progress-bar" style="width:0%"></div></div>
+              <div class="d-flex justify-content-between mb-1 mt-2"><span>CPU Yeterlilik</span><span id="cpuFitText" class="fw-600">-</span></div>
+              <div class="progress req-progress"><div id="cpuFitBar" class="progress-bar" style="width:0%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALTERNATIVE RESOLUTIONS -->
+      <div class="col-lg-6">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-aspect-ratio fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">Alternatif Çözünürlükler</h4>
+          </div>
+          <canvas id="altResChart" height="200"></canvas>
+        </div>
+      </div>
+
+      <!-- OVERCLOCKING -->
+      <div class="col-lg-6">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-lightning-fill fs-4 me-2 text-warning"></i>
+            <h4 class="mb-0 fw-700">Hız Aşırtma ile FPS Kazancı (CPU)</h4>
+          </div>
+          <div id="ocContent" class="row g-3 align-items-center">
+            <div class="col-md-6">
+              <div class="oc-box oc-normal">
+                <div class="oc-label">Normal</div>
+                <div class="oc-fps" id="ocNormalFps">0 FPS</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="oc-box oc-overclocked">
+                <div class="oc-label">Hız Aşırtmalı</div>
+                <div class="oc-fps" id="ocOverclockedFps">0 FPS</div>
+                <div class="oc-gain" id="ocGain">+0%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- POPULAR GAMES %30/60/120 -->
+      <div class="col-12">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-trophy fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">Popüler Oyunların Yüzde Kaçını 30, 60 ve 120 FPS'nin Üstünde Oynayabilirsiniz?</h4>
+          </div>
+          <div id="popularGamesChartContainer">
+            <canvas id="popularGamesChart" height="300"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- FPS ARTIRMA ÖNERİLERİ -->
+      <div class="col-lg-6">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-up-circle fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">FPS'nizi Ne Artırabilir?</h4>
+          </div>
+          <div id="fpsTips"></div>
+        </div>
+      </div>
+
+      <!-- CPU UPGRADE -->
+      <div class="col-lg-6">
+        <div class="result-card">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-up-short fs-4 me-2 text-neon"></i>
+            <h4 class="mb-0 fw-700">Önerilen İşlemci Yükseltmesi</h4>
+          </div>
+          <div id="cpuUpgradeContent"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p class="mb-0 text-gray small">EfeDonanım &copy; 2026 - Tüm hakları saklıdır. Performans değerleri tahminidir.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>
